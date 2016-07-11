@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheets/module2.css">
+    <script>
+        function onLiHover () {
+            var lis = document.querySelectorAll('li:nth-child(2), li:nth-child(3)');
+            lis[0].classList.toggle('hidden');
+            lis[1].classList.toggle('hidden');
+        }
+    </script>
+</head>
+<body>
+
+<ul>
+    <li onmouseenter="onLiHover()">First</li>
+    <li onmouseout="onLiHover()" class="hidden">Second</li>
+    <li onmouseout="onLiHover()" class="hidden">Third</li>
+</ul>
+
+</body>
+</html>

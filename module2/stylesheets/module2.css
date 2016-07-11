@@ -1,0 +1,17 @@
+li {
+    text-decoration: none;
+    background-color: darkseagreen;
+    width: 200px;
+    display: block;
+    text-align: center;
+    border: 1px solid darkgreen;
+    margin-bottom: 1px;
+}
+
+li:hover {
+    background-color: green;
+}
+
+li.hidden {
+   display: none;
+}
