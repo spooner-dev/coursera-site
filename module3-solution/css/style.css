@@ -1,0 +1,158 @@
+body {
+    font-size: 16px;
+    color: darkgreen;
+    background-color: lightgreen;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: darkgreen;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: #a1cf45;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: .75em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list li {
+    border-bottom: 1px solid #a1cf45;
+}
+
+#nav-list a {
+    color: #a1cf45;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: green;
+}
+
+#nav-list a span {
+    font-size: 1.5em;
+}
+
+.navbar-header {
+    min-height: 75px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #a1cf45;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+    background-color: green;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+
+#main-content h2 {
+    margin: 0 0 15px 0;
+}
+
+#main-content section {
+    background: darkseagreen;
+    border: 2px solid darkgreen;
+    position: relative;
+    margin: 15px;
+    padding: 15px;
+}
+
+#main-content section h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#main-content section p {
+    text-align: justify;
+    padding: 0 15px;
+}
+
+/* END HOME PAGE*/
+
+/* FOOTER */
+
+/* END FOOTER */
+
+/* Large devices */
+@media (min-width: 1200px) {
+
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Extra small devices */
+@media (max-width: 767px) {
+    #nav-list a {
+        font-size: 1.2em;
+    }
+
+    #nav-list a span {
+        font-size: 1em;
+        margin-right: 5px;
+    }
+
+    #main-content section {
+        margin-right: 75px;
+        margin-left: 75px;
+    }
+
+    .navbar-default .navbar-collapse {
+        border: 1px solid #a1cf45;
+    }
+}
+
+@media (max-width: 479px) {
+    #main-content section {
+        margin: 25px;
+        padding: 15px;
+    }
+}
