@@ -93,7 +93,7 @@ body {
     background: darkseagreen;
     border: 2px solid darkgreen;
     position: relative;
-    margin: 15px;
+    margin: 15px 0;
     padding: 15px;
 }
 
@@ -105,6 +105,21 @@ body {
 #main-content section p {
     text-align: justify;
     padding: 0 15px;
+}
+
+#main-content section a {
+    margin-top: 10px;
+
+    color: darkgreen;
+    text-align: center;
+}
+
+#main-content section a:hover {
+    color: green;
+}
+
+#main-content section a span{
+    width: 100%;
 }
 
 /* END HOME PAGE*/
